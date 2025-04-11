@@ -15,7 +15,7 @@ public class ReservationHotel extends Reservation {
 	@Override
 	public String toString() {
 		StringBuilder chaine = new StringBuilder();
-		chaine.append("Le " + jour + "/" + mois + " : chambre n°" + numChambre);
+		chaine.append("Le " + jour + "/" + mois + " : chambre nÂ°" + numChambre);
 		if(nbLitsSimples > 0) {
 			chaine.append(" avec " + nbLitsSimples);
 			if(nbLitsSimples > 1) {
