@@ -32,7 +32,7 @@ class FormulaireRestaurantTest {
 
 	@Test
 	void testGetNumService() {
-		assertEquals(NUM_SERVICE, formulaire.getNumService(), "Le num�ro de service devrait être " + NUM_SERVICE);
+		assertEquals(NUM_SERVICE, formulaire.getNumService(), "Le numéro de service devrait être " + NUM_SERVICE);
 	}
 
 	@Test
