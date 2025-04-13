@@ -5,7 +5,7 @@ public abstract class Formulaire {
 	private int mois;
 	private int numEntite;
 	
-	public Formulaire(int jour, int mois) {
+	protected Formulaire(int jour, int mois) {
 		this.jour = jour;
 		this.mois = mois;
 	}
