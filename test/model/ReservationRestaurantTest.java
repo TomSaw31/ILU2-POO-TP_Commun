@@ -33,5 +33,4 @@ class ReservationRestaurantTest {
 	void testReservationRestaurant() {
 		assertNotNull(reservation, "reservationRestaurant null");
 	}
-
 }

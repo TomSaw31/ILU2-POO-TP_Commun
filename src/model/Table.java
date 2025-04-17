@@ -3,7 +3,7 @@ package model;
 public class Table extends EntiteReservable<FormulaireRestaurant> {
 	private final int nbChaises;
 
-	protected Table(int id, int nbChaises) {
+	public Table(int id, int nbChaises) {
 		super(id);
 		this.nbChaises = nbChaises;
 	}

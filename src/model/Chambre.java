@@ -1,5 +1,6 @@
 package model;
 
+
 public class Chambre extends EntiteReservable<FormulaireHotel> {
 	private int nbLitsSimples;
 	private int nbLitsDoubles;

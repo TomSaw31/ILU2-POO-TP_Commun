@@ -17,4 +17,5 @@ public class FormulaireRestaurant extends Formulaire {
 	public int getNumService() {
 		return numService;
 	}
+
 }
